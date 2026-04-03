@@ -1,0 +1,23 @@
+@media(max-width: 435px){
+    #controls-container,
+    #preview{
+        padding: 1rem 2rem;
+        flex-direction: column;
+    }
+    #box{
+        
+        height: 300px;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+    body{
+        padding-bottom: 200px;
+    }
+    #rules-area{
+        margin-bottom: 4rem;
+        width: 380px;
+    }
+    h2{
+        margin-bottom: 2rem;
+    }
+};

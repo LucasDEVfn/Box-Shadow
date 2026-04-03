@@ -1,0 +1,111 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  font-family: "Verdana", sans-serif;
+}
+body {
+  padding-bottom: 500px;
+}
+h2 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+  color: #333;
+}
+#box-shadow-generator {
+  display: flex;
+  max-width: 1000px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  padding: 2rem;
+}
+#controls-container,
+#preview {
+  flex: 1;
+  padding: 2rem;
+}
+.form-control {
+  display: flex;
+  padding-bottom: 1.5rem;
+  margin-bottom: 1.2rem;
+  border-bottom: 1px dashed #ccc;
+}
+.form-control label {
+  font-weight: bold;
+  margin-bottom: 1rem;
+  color: #555;
+}
+.range-input {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+.range-input input[type="range"] {
+  -webkit-appearance: none;
+  width: 100%;
+  height: 24px;
+  background-color: #777777;
+  outline: none;
+  border-radius: 25px;
+}
+.range-input input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 22px;
+  height: 22px;
+  background-color: #131313;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.reference-input {
+  display: flex;
+  align-items: center;
+}
+.reference-input p {
+  margin-left: 4px;
+}
+.form-control input[type="text"] {
+  height: 30px;
+  width: 30px;
+  margin-left: 1rem;
+  text-align: center;
+}
+#box {
+  width: 100%;
+  height: 400px;
+  background-color: #ff9900;
+  margin: 0 auto;
+  border-radius: 8px;
+}
+
+#generated-rule {
+  margin-bottom: 0.5rem;
+}
+#rules-area {
+  background-color: #ddd;
+  max-width: 1000px;
+  margin: 0 auto;
+  border-radius: 5px;
+  border: 2px solid #131313;
+  padding: 1rem;
+  text-align: center;
+  transition: 0.3s;
+}
+#rules-area:hover {
+  background-color: #1c1c1c;
+  color: #fff;
+  border: none;
+}
+
+#color-value {
+  min-width: 100px;
+}
+
+#inset {
+  align-self: start;
+  height: 20px;
+  width: 20px;
+}
+#copy-instructions {
+  text-align: center;
+  font-style: italic;
+  margin-top: 1rem;
+}
